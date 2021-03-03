@@ -25,5 +25,9 @@ int main(int argc, char* argv[], char* envp[]) {
 "
 The code above will take a file desriptor as an argument.
 The code will then read from that file descriptor after subtracting 4660 from the file descriptor.
-Then the code will check if the string "LETMEWIN\n" is in the buffer, and if it is it will spit out the flag.
+This means the line
+"
+echo "Some text" | ./fd 4661
+"
+Will work. Then adding in "LETMEWIN\n" will next the flag.
 
