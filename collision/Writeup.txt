@@ -1,0 +1,4 @@
+For this challenge we are given a basic encryption/hashing algorithm.
+Takinga look at it we see it reads in 20 bytes of information.
+It then hashes them into an int.
+
