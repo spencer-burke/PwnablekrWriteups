@@ -1,4 +1,8 @@
 For this challenge we are given a basic encryption/hashing algorithm.
-Takinga look at it we see it reads in 20 bytes of information.
+Taking a look at it we see it reads in 20 bytes of information.
 It then hashes them into an int.
+Working through a debugger whith the breakpoint on the add instruction.
+We can see it add groups of 4 with A's, then B's, then C's, and etc.....
+This means Taking 5 groups of 4 bytes can add up to the proper value.
+The actual value that needs to be added up to is: hex=0x080484bb decimal=
 
