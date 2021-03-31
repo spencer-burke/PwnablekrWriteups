@@ -4,5 +4,6 @@ It then hashes them into an int.
 Working through a debugger whith the breakpoint on the add instruction.
 We can see it add groups of 4 with A's, then B's, then C's, and etc.....
 This means Taking 5 groups of 4 bytes can add up to the proper value.
-The actual value that needs to be added up to is: hex=0x080484bb decimal=
 
+
+./col "`python -c "print('\xc9\xce\xc5\x06\xc9\xce\xc5\x06\xc9\xce\xc5\x06\xc9\xce\xc5\x06\xc8\xce\xc5\x06')"`"
